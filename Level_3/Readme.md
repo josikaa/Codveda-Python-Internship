@@ -111,8 +111,8 @@ The encryption key is required to decrypt the encrypted file.
 The secret.key file should be kept private and is excluded
 from the GitHub repository using .gitignore.
 
-#Task 3: N-Queens Problem
-Description
+# Task 3: N-Queens Problem
+## Description
 
 The N-Queens Problem is a classic algorithmic problem in which
 N queens must be placed on an N × N chessboard so that no two
@@ -126,7 +126,7 @@ A valid solution ensures that no two queens share:
 The same row
 The same column
 The same diagonal
-Objectives
+## Objectives
 
 The main objectives of this task are:
 
@@ -136,12 +136,12 @@ To check whether a position is safe.
 To use backtracking to find a valid solution.
 To ensure that no queens attack each other.
 To handle invalid user input.
-Technologies Used
+## Technologies Used
 Python 3
 Two-dimensional lists
 Backtracking algorithm
 Command Line Interface (CLI)
-Python Concepts Used
+## Python Concepts Used
 Functions
 Lists
 Nested loops
