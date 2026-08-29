@@ -111,7 +111,7 @@ The encryption key is required to decrypt the encrypted file.
 The secret.key file should be kept private and is excluded
 from the GitHub repository using .gitignore.
 
-Task 3: N-Queens Problem
+#Task 3: N-Queens Problem
 Description
 
 The N-Queens Problem is a classic algorithmic problem in which
