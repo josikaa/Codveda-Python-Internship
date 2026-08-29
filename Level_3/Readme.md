@@ -110,7 +110,7 @@ Security Note
 The encryption key is required to decrypt the encrypted file.
 The secret.key file should be kept private and is excluded
 from the GitHub repository using .gitignore.
-
+```
 # Task 3: N-Queens Problem
 ## Description
 
@@ -150,7 +150,7 @@ Recursion
 Backtracking
 User input
 Exception handling
-How the Algorithm Works
+## How the Algorithm Works
 An empty N × N chessboard is created.
 The program starts placing queens from the first row.
 Before placing a queen, the program checks whether the
@@ -161,6 +161,7 @@ If no safe position is available, the program backtracks
 to the previous row.
 The previous queen is removed and another position is tried.
 The process continues until all queens are placed.
+```text
 Example
 
 For 4 queens, one possible solution is:
@@ -176,9 +177,9 @@ Q = Queen
 . = Empty position
 
 No two queens share the same row, column, or diagonal.
-
-Testing
-File Encryption and Decryption Testing
+```
+# Testing
+## File Encryption and Decryption Testing
 
 The encryption project was tested by:
 
@@ -188,7 +189,7 @@ Confirming that an encrypted file was created.
 Decrypting the encrypted file.
 Confirming that the original content was restored.
 Testing file-not-found handling.
-N-Queens Testing
+## N-Queens Testing
 
 The N-Queens project was tested using:
 
@@ -196,7 +197,7 @@ N = 4
 Invalid numerical input
 Positive integer input
 Verification of queen positions
-Learning Outcomes
+# Learning Outcomes
 
 Through the Level 3 projects, the following skills were developed:
 
@@ -209,7 +210,7 @@ Applying the backtracking technique.
 Solving constraint-based problems.
 Developing command-line applications.
 Testing programs with different inputs.
-Conclusion
+# Conclusion
 
 The Level 3 projects provided practical experience with advanced
 Python programming concepts.
@@ -221,13 +222,13 @@ demonstrated recursive problem solving and backtracking.
 Together, these projects strengthened programming, algorithmic
 thinking, file handling, security, and problem-solving skills.
 
-Internship Information
+# Internship Information
 
 Organization: Codveda Technology
 Internship Domain: Python Development
 Level: Level 3 – Advanced
 
-Projects Completed:
+# Projects Completed:
 
 File Encryption and Decryption
 N-Queens Problem
