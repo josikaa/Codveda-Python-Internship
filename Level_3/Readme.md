@@ -92,3 +92,143 @@ The main objectives of this task are:
 Enter your choice (1-4): 1
 
 Encryption key generated successfully.
+Encryption:
+
+Enter your choice (1-4): 2
+Enter the file name to encrypt: sample.txt
+
+File encrypted successfully: sample.txt.encrypted
+
+Decryption:
+
+Enter your choice (1-4): 3
+Enter the encrypted file name: sample.txt.encrypted
+
+File decrypted successfully: sample.txt
+Security Note
+
+The encryption key is required to decrypt the encrypted file.
+The secret.key file should be kept private and is excluded
+from the GitHub repository using .gitignore.
+
+Task 3: N-Queens Problem
+Description
+
+The N-Queens Problem is a classic algorithmic problem in which
+N queens must be placed on an N × N chessboard so that no two
+queens can attack each other.
+
+The program uses a backtracking algorithm to find a valid
+arrangement of queens.
+
+A valid solution ensures that no two queens share:
+
+The same row
+The same column
+The same diagonal
+Objectives
+
+The main objectives of this task are:
+
+To represent the chessboard using a two-dimensional array.
+To place queens one row at a time.
+To check whether a position is safe.
+To use backtracking to find a valid solution.
+To ensure that no queens attack each other.
+To handle invalid user input.
+Technologies Used
+Python 3
+Two-dimensional lists
+Backtracking algorithm
+Command Line Interface (CLI)
+Python Concepts Used
+Functions
+Lists
+Nested loops
+Conditional statements
+Recursion
+Backtracking
+User input
+Exception handling
+How the Algorithm Works
+An empty N × N chessboard is created.
+The program starts placing queens from the first row.
+Before placing a queen, the program checks whether the
+position is safe.
+If the position is safe, a queen is placed.
+The program moves to the next row.
+If no safe position is available, the program backtracks
+to the previous row.
+The previous queen is removed and another position is tried.
+The process continues until all queens are placed.
+Example
+
+For 4 queens, one possible solution is:
+
+. Q . .
+. . . Q
+Q . . .
+. . Q .
+
+Where:
+
+Q = Queen
+. = Empty position
+
+No two queens share the same row, column, or diagonal.
+
+Testing
+File Encryption and Decryption Testing
+
+The encryption project was tested by:
+
+Generating an encryption key.
+Encrypting a sample text file.
+Confirming that an encrypted file was created.
+Decrypting the encrypted file.
+Confirming that the original content was restored.
+Testing file-not-found handling.
+N-Queens Testing
+
+The N-Queens project was tested using:
+
+N = 4
+Invalid numerical input
+Positive integer input
+Verification of queen positions
+Learning Outcomes
+
+Through the Level 3 projects, the following skills were developed:
+
+Understanding file encryption and decryption.
+Working with external Python libraries.
+Handling files in binary mode.
+Implementing exception handling.
+Understanding recursive algorithms.
+Applying the backtracking technique.
+Solving constraint-based problems.
+Developing command-line applications.
+Testing programs with different inputs.
+Conclusion
+
+The Level 3 projects provided practical experience with advanced
+Python programming concepts.
+
+The File Encryption and Decryption project introduced secure file
+processing using Fernet encryption, while the N-Queens project
+demonstrated recursive problem solving and backtracking.
+
+Together, these projects strengthened programming, algorithmic
+thinking, file handling, security, and problem-solving skills.
+
+Internship Information
+
+Organization: Codveda Technology
+Internship Domain: Python Development
+Level: Level 3 – Advanced
+
+Projects Completed:
+
+File Encryption and Decryption
+N-Queens Problem
+
